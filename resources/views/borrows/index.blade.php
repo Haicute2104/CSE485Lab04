@@ -18,9 +18,6 @@
             {{ session('success') }}
         </div>
     @endif
-    <a href="{{ route('borrows.index') }}" class="btn btn-secondary btn-sm mb-4">
-        <i class="bi bi-arrow-left"></i> Back to Book Management
-    </a>
     <table class="table table-bordered">
         <thead>
         <tr>
